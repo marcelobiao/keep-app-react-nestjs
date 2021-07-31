@@ -12,6 +12,16 @@ export class createNotesTable1627596173242 implements MigrationInterface {
                     isPrimary: true,
                     isGenerated: true,
                     generationStrategy: 'increment'
+                },
+                {
+                    name: 'text',
+                    type: 'text',
+                    isNullable: true
+                },
+                {
+                    name: "created_at",
+                    type: "timestamp",
+                    default: "now()"
                 }
             ]
         }))

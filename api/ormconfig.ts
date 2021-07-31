@@ -6,7 +6,7 @@ const config: PostgresConnectionOptions = {
     port: 5432,
     username: 'docker',
     password: 'docker',
-    database: 'nest_api',
+    database: 'keep_api',
     entities: ["dist/src/**/*.entity.js"],
     //synchronize: true,
     migrationsTableName: "migration_table",
